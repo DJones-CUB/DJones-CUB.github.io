@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="..\resources\css\style.css" rel="stylesheet">
+    <title>Projects</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/18bdd3639f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar, don't touch. -->
+    <nav class="navbar navbar-expand-lg custom-navbar-color" style="height: 60px">
+        <div class="navbar-helper">
+            <a class="navbar-brand text-white">Drake Jones</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid" style="justify-content:flex-end;">
+            <img src="..\resources\img\deltarune.png" style="max-width: 5%; height: auto;" />
+        </div>
+    </nav>
+
+    <!-- Content, do touch. -->
+    <div class="container" style="background-color: white;">
+        <div class="accordion accordion-flush" style="min-width: 100%;">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Development Projects</b>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <h5>Retro-Horror Game</h5>
+                        My current and foremost project is a re-imagining of a horror game that defined my childhood using a different genre, one which was not quite as prevalent in my childhood but has become one of my favorite styles and franchies. The development of this project is slow going and difficult, due to the constant snag of grappling with a new engine and unfamiliar syntax, but the core mechanics and vision (sometimes called "fantasy") of the game have been defined and outlined. With some assistance from friends and colleagues, I'm hoping to have the game in a playable state by 2027, and complete by the time I am finished with my Bachelor's degree.<br /><br />
+                        Conceptually, the game is a relatively simple implementation, but provides challenges in the way that the camera follows and tracks the player: the camera does not follow the player character in the traditional sense, but is instead placed at specific points in each room, and tracks the player's character by rotating. The player's movement is dependent on the camera, meaning that walking straight towards the right would orbit you clockwise around a camera. The implementation is difficult and I've been struggling to completely grasp it- but I've learned a great deal from it so far and I'm looking forward to completing the project.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <b>Writing Projects</b>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <h5>Novel</h5>
+                        A long time project of mine has been to write a full length science fiction novel, set in a universe of my own creation. Historically, my attempts at this feat have been, at best, terrible. Recently, though, I've been inspired by by foray into Warhammer 40k and another one of my design projects to pick up this project once more. While in the early stages of conceptual development, I've begun laying out the theme and setting that I have envisioned for the world and the surrounding novel.<br /><br />
+                        While I cannot explore the specific details of the novel, as I would like to write it before it is cannibalized by LLM data trawlers, but I want to explore a particular theme with the novel: does change require violence, or is civil disobedience enough?
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <b>Design Projects</b>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <h5>Interstellar Wargame</h5>
+                        One of my current design projects, besides my development project, is actually a project that I am assisting a few friends in creating- "assisting" is insufficient, however, as I'm leading the development. They've expressed interest and excitement for an interstellar wargame, effectively a more complex board game set in space, and have asked me to create a system to enable them to play online. This could <i>technically</i> be classified as development, it is currently in the design phase as it does not (currently) have any kind of implmentation.<br /><br />
+                        The goal of this project in particular is to avoid unneccesary complexity- the complaint of the systems that they've used or designed in the past is that there are simply too many variables for one person to manage in their freetime that often make the storytelling part of the game feel like an afterthought. The challenge of this is still making a game, wherein people playing can lose and win, while not occluding storytelling, our psuedo-realism and each player's agency. This system also has to serve to <i>keep</i> players engaged by avoiding frustration and providing satisfaction on more than a superficial level.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer, don't touch. -->
+    <div id="footer">
+        <p style="font-size: 40px;">
+            <a href="https://steamcommunity.com/id/drakazure/" target="_blank">
+                <i class="fa-brands fa-steam"></i>
+            </a>
+            <a href="https://www.instagram.com/drakazure/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://open.spotify.com/user/nnkb59zunsgrugv9y2qnwixpg?si=687ff71664c4491f" target="_blank">
+                <i class="fa-brands fa-spotify"></i>
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>
